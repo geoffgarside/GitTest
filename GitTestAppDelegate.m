@@ -7,7 +7,7 @@
 //
 
 #import "GitTestAppDelegate.h"
-#import <Git/GITRepo.h>
+#import <Git/Git.h>
 
 @implementation GitTestAppDelegate
 

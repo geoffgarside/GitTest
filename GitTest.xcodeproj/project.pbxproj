@@ -235,7 +235,7 @@
 				GCC_PREFIX_HEADER = GitTest_Prefix.pch;
 				INFOPLIST_FILE = "GitTest-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = GitTest;
 			};
 			name = Debug;
@@ -254,6 +254,7 @@
 				GCC_PREFIX_HEADER = GitTest_Prefix.pch;
 				INFOPLIST_FILE = "GitTest-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = GitTest;
 			};
 			name = Release;
